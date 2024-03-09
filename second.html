@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SECOND PAGE</title>
+</head>
+<body>
+    <script>
+        function revImg(){
+            document.getElementById("images").src="images/image1.jpg";
+        }
+        function chanImg(){
+            document.getElementById("images").src="images/image2.jpg";
+        }
+    </script>
+     <button onclick="revImg()">Image Revert</button>
+     <img id="images" src="images/image1.jpg" width="800" height="500">
+     <button onclick="chanImg()">Image Change</button>
+     
+</body>
+</html>
